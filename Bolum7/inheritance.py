@@ -3,6 +3,10 @@ class person:
         self.name=name
         self.surname=surname
         self.age=age
+        print("Person sınıfı oluşturuldu.")
+
+    def intro(self):
+        print(f"Merhaba benim adım {self.name}.")
 
 class student(person):
     pass
@@ -12,8 +16,9 @@ class teacher(person):
     pass
 
 
-p1=person("Ebru", "Aydoğan", 37)
-s1=student("Beril", "Aydoğan", 7)
-
-print(p1.name, p1.surname, p1.age)
-print(s1.name, s1.surname, s1.age)
+p1=Person("Ebru", "Aydoğan", 37)
+p1.intro()
+s1=student("Beril", "Aydoğan", 7, 84)
+s1.intro()
+t1=teacher("Ayşe", "Koç", 35, "Matematik")
+t1.intro()
