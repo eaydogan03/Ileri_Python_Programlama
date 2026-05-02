@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "product_name": "Iphone 15",
+        "price": 90000,
+        "category": "Telefon",
+        "is_published": true
+    },
+    {
+        "id": 2,
+        "product_name": "Iphone 17",
+        "price": 120000,
+        "category": "Telefon",
+        "is_published": true
+    },
+    {
+        "id": 3,
+        "product_name": "MacBook Pro",
+        "price": 100000,
+        "category": "Bilgisayar",
+        "is_published": false
+    }
+]
