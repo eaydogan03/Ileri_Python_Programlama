@@ -1,3 +1,9 @@
+# x=5
+
+# print(type(x))
+# print(type(int))
+# print(type(type))
+
 class Person:
     def __init__(self, name, surname, age):
         self.name=name
@@ -8,17 +14,4 @@ class Person:
     def intro(self):
         print(f"Merhaba benim adım {self.name}.")
 
-class student(Person):
-    pass
-
-
-class teacher(Person):
-    pass
-
-
-p1=Person("Ebru", "Aydoğan", 37)
-p1.intro()
-s1=student("Beril", "Aydoğan", 7)
-s1.intro()
-t1=teacher("Ayşe", "Koç", 35)
-t1.intro()
+print(type(Person))
